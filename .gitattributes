@@ -1,0 +1,18 @@
+# Normalise text to LF so scripts run inside Linux containers regardless of the checkout platform.
+* text=auto eol=lf
+
+*.sh text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.heic binary
+*.pdf binary
+*.jar binary
+
+# Generated code is collapsed in GitHub diffs
+apps/ios/Hushold/DesignSystem/DesignTokens.swift linguist-generated=true
+services/media-service/internal/adapters/postgres/sqlc/** linguist-generated=true
