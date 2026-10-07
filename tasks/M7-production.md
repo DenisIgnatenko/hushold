@@ -1,5 +1,7 @@
 # M7: Production on AWS, notifications, TestFlight
 
+> Status: Superseded by `tasks/M7-cloud-rehearsal-and-release.md` (ADR-009). Kept for history; do not implement from this file.
+
 Goal: the system runs on EKS with GitOps and full observability, push notifications work, and the iOS app is distributed via TestFlight to the household.
 
 ## Tasks
